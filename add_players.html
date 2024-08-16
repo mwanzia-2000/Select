@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livestats: Add Players</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="livestats_logo.png" alt="Livestats Logo" class="logo">
+      <p>STARLETS vs Corss Trinity</p>
+      <p>How would you like to add players?</p>
+    </header>
+    <main>
+      <div class="form-wrapper">
+        <div class="team-container home-team">
+          <h2>STARLETS</h2>
+          <form class="team-form">
+            <label for="home-captain"></label>
+            <input type="text" id="home-captain" name="home-captain" placeholder="Team Captain">
+
+            <div class="player-info">
+              <label for="home-player-name"></label>
+              <input type="text" id="home-player-name" name="home-player-name" placeholder="Player Name">
+
+              <label for="home-player-number"></label>
+              <input type="number" id="home-player-number" name="home-player-number" placeholder="Number">
+              
+              <button type="button" class="delete-button">-</button>
+            </div>
+
+            <div class="form-buttons">
+              <button type="button" class="add-button">+</button>
+              <button type="submit" class="submit-button">Submit</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="team-container away-team">
+          <h2>Corss Trinity</h2>
+          <form class="team-form">
+            <label for="away-captain"></label>
+            <input type="text" id="away-captain" name="away-captain" placeholder="Team Captain">
+
+            <div class="player-info">
+              <label for="away-player-name"></label>
+              <input type="text" id="away-player-name" name="away-player-name" placeholder="Player Name">
+
+              <label for="away-player-number"></label>
+              <input type="number" id="away-player-number" name="away-player-number" placeholder="Number">
+              
+              <button type="button" class="delete-button">-</button>
+            </div>
+
+            <div class="form-buttons">
+              <button type="button" class="add-button">+</button>
+              <button type="submit" class="submit-button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="start-game-wrapper">
+        <button class="start-game-button">All good to go? Start Game!</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
